@@ -1,0 +1,105 @@
+#margeleft{
+    margin-left: 50px;
+}
+#clicknow{
+    padding: 20px;
+    margin: 50px 50px 0 50px;
+    float: right;
+    color: white;
+    border: white solid 1px;
+}
+body {
+    background-image: url("../images/Bgplan.jpg");
+    background-repeat: repeat;
+    background-size:contain;
+    color: white;
+}
+.box{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.box::after{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.basebloc {
+    margin: 75px 40px 0 40px;
+    padding: 0 40px 30px 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+    box-shadow: 2px 2px black;
+  
+}
+.basebloc:hover h4, .mesblocks:hover p {
+    color: #fff
+}
+.block01::before{
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    z-index: -1;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%) 0 0 repeat;
+    transform: rotate(30deg);
+  }
+.block01:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #34b5bf 0%, #210c59 100%)
+}
+.block02:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fb0054 0%, #f55b2a 100%)
+}
+
+.block03:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #3615e7 0%, #44a2f6 100%)
+}
+
+.block04:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fc6a0e 0%, #fdb642 100%)
+}
+.block05:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #8d40fb 0%, #5a57fb 100%)
+}
+.block06:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, .05);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 100%)
+}
+.logobloc{
+    float: right;
+    margin-right: 0px;
+    padding-top: 60px;
+    max-width: 150px;
+}
+
+.letexte{
+
+    text-align: left;
+    font-size: 20px;
+}
+
+.leschiffres{
+    text-align: left;
+    padding-top: 30px;
+    font-size: 55px;
+    margin-left: 5px;
+    opacity: 0.3;
+}
